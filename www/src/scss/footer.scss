@@ -1,0 +1,36 @@
+$footer-border-color: rgb(171, 196, 183);
+
+.footer {
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    // background-color: rgb(180, 180, 180);
+    border-collapse: collapse;
+    border-top: 1px solid $footer-border-color;
+    padding: 10px;
+
+    &__about-area {
+        width: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin: 10px;
+    }
+}

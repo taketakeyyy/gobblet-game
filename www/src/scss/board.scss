@@ -1,0 +1,22 @@
+.board-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &__box {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0px 0px;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0px;
+        padding: 0px;
+        width: 100px;
+        height: 100px;
+        border: 2px solid #000;
+    }
+}

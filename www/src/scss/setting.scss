@@ -1,0 +1,16 @@
+.setting {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    &__attack-order {
+        width: 50px;
+        margin: 0 5px;
+    }
+
+    &__game-start-btn {
+        width: 50px;
+        margin: 0 5px;
+    }
+}

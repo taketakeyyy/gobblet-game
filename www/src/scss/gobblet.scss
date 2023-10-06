@@ -1,0 +1,22 @@
+.gobblet {
+    // border: 5px solid;
+    // border-color: red;
+}
+
+.gobblet-size0 {
+    $size0: 50px;
+    height: $size0;
+    width: $size0 * 1.0;
+}
+
+.gobblet-size1 {
+    $size1: 70px;
+    height: $size1;
+    width: $size1 * 1.0;
+}
+
+.gobblet-size2 {
+    $size1: 90px;
+    height: $size1;
+    width: $size1 * 1.0;
+}

@@ -1,0 +1,25 @@
+.user-input-conteiner {
+    width: 50%;
+    margin: auto 0;
+}
+
+.user-input-row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid #f2f4f5;
+
+    &__label {
+        display: flex;
+        align-items: center;
+        width: 200px;
+    }
+}
+
+.user-input-row:last-child {
+    border-bottom: none;
+}
